@@ -1,1 +1,5 @@
-// Board.java placeholder
+package core;
+
+public interface Board {
+    Board copy();
+}

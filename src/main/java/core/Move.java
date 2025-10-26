@@ -1,1 +1,5 @@
-// Move.java placeholder
+package core;
+
+public interface Move {
+    String describe();
+}

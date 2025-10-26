@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="variants.quoridor.QuoridorRulesetTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-10-26T09:12:12" hostname="VAN1DH" time="0.036">
+  <properties/>
+  <testcase name="testValidPawnMoveForward()" classname="variants.quoridor.QuoridorRulesetTest" time="0.02"/>
+  <testcase name="testWallBlocksPathForOnePlayerOnly()" classname="variants.quoridor.QuoridorRulesetTest" time="0.003"/>
+  <testcase name="testLegalPawnDestinations()" classname="variants.quoridor.QuoridorRulesetTest" time="0.004"/>
+  <testcase name="testPawnJumpOverOpponent()" classname="variants.quoridor.QuoridorRulesetTest" time="0.001"/>
+  <testcase name="testWinCondition()" classname="variants.quoridor.QuoridorRulesetTest" time="0.0"/>
+  <testcase name="testPlaceInvalidWallOverlap()" classname="variants.quoridor.QuoridorRulesetTest" time="0.001"/>
+  <testcase name="testPlaceValidWall()" classname="variants.quoridor.QuoridorRulesetTest" time="0.0"/>
+  <testcase name="testSanity()" classname="variants.quoridor.QuoridorRulesetTest" time="0.0"/>
+  <testcase name="testIllegalPawnMoveBlocked()" classname="variants.quoridor.QuoridorRulesetTest" time="0.001"/>
+  <testcase name="testPawnDiagonalJumpWhenBlocked()" classname="variants.quoridor.QuoridorRulesetTest" time="0.0"/>
+  <system-out><![CDATA[Legal destinations: [Pos[x=4, y=5], Pos[x=3, y=4], Pos[x=4, y=3], Pos[x=5, y=4]]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

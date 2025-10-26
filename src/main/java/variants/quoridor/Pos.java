@@ -1,1 +1,3 @@
-// Pos.java placeholder
+package variants.quoridor;
+
+public record Pos(int x, int y) {}

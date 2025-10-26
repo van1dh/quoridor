@@ -13,8 +13,8 @@ public final class Main {
         if(line.equalsIgnoreCase("quit")){ System.out.println("Bye!"); return; }
         if(line.equalsIgnoreCase("help")){ game.printHelp(); continue; }
         try{ System.out.println(game.handle(line)); }
-        catch(IllegalMoveException ime){ System.out.println("[非法走子] "+ime.getMessage()); }
-        catch(Exception e){ System.out.println("[输入错误] "+e.getMessage()); }
+        catch(IllegalMoveException ime){ System.out.println("Illegal move"+ime.getMessage()); }
+        catch(Exception e){ System.out.println("Input error "+e.getMessage()); }
       }
       game.printResult();
     }
