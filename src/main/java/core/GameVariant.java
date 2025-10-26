@@ -1,0 +1,1 @@
+// GameVariant.java placeholder

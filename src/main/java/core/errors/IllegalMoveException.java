@@ -1,0 +1,1 @@
+// IllegalMoveException.java placeholder

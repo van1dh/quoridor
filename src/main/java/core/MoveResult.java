@@ -1,0 +1,1 @@
+// MoveResult.java placeholder

@@ -1,0 +1,1 @@
+// QuoridorVariant.java placeholder
