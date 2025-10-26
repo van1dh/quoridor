@@ -1,14 +1,28 @@
-
 plugins {
     id 'application'
     id 'java'
 }
+
 group = 'edu.project'
 version = '1.0.0'
 sourceCompatibility = JavaVersion.VERSION_17
-application { mainClass = 'cli.Main' }
-repositories { mavenCentral() }
+
+repositories {
+    mavenCentral()
+}
+
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
 }
-test { useJUnitPlatform() }
+
+application {
+    mainClass = 'cli.Main'
+}
+
+tasks.named('run') {
+    standardInput = System.in
+}
+
+test {
+    useJUnitPlatform()
+}

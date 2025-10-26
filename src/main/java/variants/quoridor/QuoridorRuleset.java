@@ -10,16 +10,17 @@ public final class QuoridorRuleset implements Ruleset {
     public QuoridorRuleset() {
     }
 
-    static QuoridorBoard initialBoard(int players, int wallsPerPlayer, int size) {
+    public static QuoridorBoard initialBoard(int players, int wallsPerPlayer, int size) {
         QuoridorBoard b = new QuoridorBoard(players, size);
         int mid = size / 2;
         b.setPawn(0, new Pos(mid, 0));
         b.setPawn(1, new Pos(mid, size - 1));
         for (int i = 0; i < players; i++) {
-            for (int k = 0; k < wallsPerPlayer; k++) b.decWallsLeft(i);
+            b.setWallsLeft(i, wallsPerPlayer);
         }
         return b;
     }
+
 
     @Override
     public Move parseMove(String in, Board B, Player p) {
