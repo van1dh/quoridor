@@ -1,4 +1,4 @@
-# Quoridor: Turn-Based Game Variant
+# Quoridor
 
 ## Overview
 
